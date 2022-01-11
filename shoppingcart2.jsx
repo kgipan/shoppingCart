@@ -1,4 +1,5 @@
 // Ex 2 - remove any item from navbar with less than 2 in stock
+// write out both the name and the number in stock in format apple:2
 function NavBar({ menuitems, minstock }) {
   let list1 = menuitems.filter(item => item.instock >= minstock);
   let list2 = list1.map((item, index) => {
